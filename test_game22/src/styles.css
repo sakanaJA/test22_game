@@ -1,0 +1,19 @@
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 10px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.tile {
+  background: #ddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selected {
+  border: 2px solid #ff0000;
+}
